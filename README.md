@@ -6,4 +6,5 @@ Homebrew tap for my CLI tools.
 
 ```bash
 	brew install mtn-man/tap/after
+	brew install mtn-man/tap/mintmedia
 ```
