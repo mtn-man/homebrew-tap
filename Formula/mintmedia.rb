@@ -2,7 +2,7 @@ class Mintmedia < Formula
   desc "Organize downloaded media into clean Movies and Shows libraries"
   homepage "https://github.com/mtn-man/mintmedia"
   version "0.1.0"
-  license "MIT"
+  license "GPL-3.0-or-later"
 
   on_macos do
     on_intel do
