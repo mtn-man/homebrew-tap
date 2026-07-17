@@ -1,30 +1,30 @@
 class Mintmedia < Formula
   desc "Organize downloaded media into clean Movies and Shows libraries"
   homepage "https://github.com/mtn-man/mintmedia"
-  version "0.1.2"
+  version "0.1.3"
   license "GPL-3.0-or-later"
 
   on_macos do
     on_intel do
-      url "https://github.com/mtn-man/mintmedia/releases/download/v0.1.2/mintmedia_v0.1.2_darwin_amd64.tar.gz"
-      sha256 "c446ba59ced225e8b97f8c35a1445b6aa973be231bdd045f66f650c9a79facb2"
+      url "https://github.com/mtn-man/mintmedia/releases/download/v0.1.3/mintmedia_v0.1.3_darwin_amd64.tar.gz"
+      sha256 "86a4edcc834b04027f36aa6c080aece925b1c672e16faa087f58a366866bbada"
     end
 
     on_arm do
-      url "https://github.com/mtn-man/mintmedia/releases/download/v0.1.2/mintmedia_v0.1.2_darwin_arm64.tar.gz"
-      sha256 "8c946aef576e85c8df787b2a0eaa7499991269934f70685fcc571b0093f30cc2"
+      url "https://github.com/mtn-man/mintmedia/releases/download/v0.1.3/mintmedia_v0.1.3_darwin_arm64.tar.gz"
+      sha256 "8aeb55606b9c5d009327d685ee67611da90b9f3946cf4defa37e22cfef4bd650"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/mtn-man/mintmedia/releases/download/v0.1.2/mintmedia_v0.1.2_linux_amd64.tar.gz"
-      sha256 "302a3aae1ab657da3e973b55b5ba2a6d423b9c8dcdf4c55a068b52abbd136704"
+      url "https://github.com/mtn-man/mintmedia/releases/download/v0.1.3/mintmedia_v0.1.3_linux_amd64.tar.gz"
+      sha256 "83fc87326609e7756210a9af6c607957631e9b6ddda643e749dee899d263571e"
     end
 
     on_arm do
-      url "https://github.com/mtn-man/mintmedia/releases/download/v0.1.2/mintmedia_v0.1.2_linux_arm64.tar.gz"
-      sha256 "2205652bfd2923f4aaa0305a3f8e1f32339ebe80d30c83e43bb28256348d285c"
+      url "https://github.com/mtn-man/mintmedia/releases/download/v0.1.3/mintmedia_v0.1.3_linux_arm64.tar.gz"
+      sha256 "7cca229e61716cbcf53ef2a7ff86b67ba18aede81b7b31e3c64eecc0094ddc45"
     end
   end
 
@@ -46,6 +46,6 @@ class Mintmedia < Formula
   end
 
   test do
-    assert_match "mintmedia v0.1.2", shell_output("#{bin}/mintmedia --version")
+    assert_match "mintmedia v0.1.3", shell_output("#{bin}/mintmedia --version")
   end
 end
