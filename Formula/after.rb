@@ -2,29 +2,29 @@ class After < Formula
   desc "Fast CLI countdown timer with live terminal feedback and optional alarms"
   homepage "https://github.com/mtn-man/after"
   license "MIT"
-  version "1.8.0"
+  version "1.9.0"
 
   on_macos do
     on_intel do
-      url "https://github.com/Mtn-Man/after/releases/download/v1.8.0/after_v1.8.0_darwin_amd64.tar.gz"
-      sha256 "80d218ee27ca1eb4c3d833ebaaa54515729321642cc749176f4868299463ea51"
+      url "https://github.com/Mtn-Man/after/releases/download/v1.9.0/after_v1.9.0_darwin_amd64.tar.gz"
+      sha256 "f7aed221be55247491eaf81deecf4a1279d057317d8075a14cc688e83ccf495e"
     end
 
     on_arm do
-      url "https://github.com/Mtn-Man/after/releases/download/v1.8.0/after_v1.8.0_darwin_arm64.tar.gz"
-      sha256 "64cb86415a9c3d9d670498bf4bd634ea87877c86cafe1e2c37a6c8308bebd30a"
+      url "https://github.com/Mtn-Man/after/releases/download/v1.9.0/after_v1.9.0_darwin_arm64.tar.gz"
+      sha256 "7ba682e16f79567d43487f57af53cee88c697013f406cdae1aaa5ea5310a7b6c"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Mtn-Man/after/releases/download/v1.8.0/after_v1.8.0_linux_amd64.tar.gz"
-      sha256 "890b66bc5bf9731ba259761ec9364702a9d37487e80cf2ccc12346bbf3006942"
+      url "https://github.com/Mtn-Man/after/releases/download/v1.9.0/after_v1.9.0_linux_amd64.tar.gz"
+      sha256 "d9e85e04c2c3ce67b1580b30327a97c993ee8e90244946c90bb76604c120728c"
     end
 
     on_arm do
-      url "https://github.com/Mtn-Man/after/releases/download/v1.8.0/after_v1.8.0_linux_arm64.tar.gz"
-      sha256 "a997399b7983d768258c1d7a857c718cf62c867132aca2e124ff45d7146e9751"
+      url "https://github.com/Mtn-Man/after/releases/download/v1.9.0/after_v1.9.0_linux_arm64.tar.gz"
+      sha256 "cf1f1c507195de0515a7b455798a3c277e60636cfb61a80b8cfe789d352442b1"
     end
   end
 
@@ -46,6 +46,6 @@ class After < Formula
   end
 
   test do
-    assert_match "after v1.8.0", shell_output("#{bin}/after --version")
+    assert_match "after v1.9.0", shell_output("#{bin}/after --version")
   end
 end
